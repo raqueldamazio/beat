@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;1,8..144,100&family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #129799;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cursor {
+  position: absolute;
+  height: 15px;
+  left: 320px;
+  top: 10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+main {
+  background-color: #ffa185;
+}
+
+h2 {
+  color: white;
+  padding-top: 40px;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+section {
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudomain {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-left: 2%;
+}
+
+ab {
+  justify-content: center;
+}
+
+.vejamais {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+footer {
+  background-color: #129799;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ft {
+  height: 30px;
+}
+
+.ft2 {
+  height: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+}
